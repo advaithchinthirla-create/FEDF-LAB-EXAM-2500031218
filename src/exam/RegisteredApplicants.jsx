@@ -8,12 +8,9 @@ export default function RegisteredApplicants() {
     const data = JSON.parse(localStorage.getItem("applicants")) || [];
     setApplicants(data);
   }, []);
-
   return (
     <div>
-
       <h2>Registered Applicants</h2>
-
       <table border="1" cellPadding="10">
 
         <thead>

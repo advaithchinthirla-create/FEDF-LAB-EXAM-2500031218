@@ -12,7 +12,6 @@ export default function APIDemo() {
 
   return (
     <div>
-
       <h2>API Demo</h2>
 
       <table border="1" cellPadding="10">
